@@ -49,7 +49,7 @@ pipeline {
                 logLevel: 'DEBUG',
                 jsAnalysis: [   // all parameters specific to Javascript analysis go under this
                     enable: true,
-                    //force: true,                            // if set, it forces analysis even there are no vulnerable component method signatures (internal use only)
+                    force: true,                            // if set, it forces analysis even there are no vulnerable component method signatures (internal use only)
                     //node: [                                 // optional
                     //  executable: '/path/to/node/exec'      // absolute path expected; you can use env. vars. e.g. "${env.WORKSPACE}/path/to/node"
                     //],
